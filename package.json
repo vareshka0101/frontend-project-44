@@ -1,0 +1,25 @@
+{
+  "name": "@hexlet/code",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "brain-games": "bin/brain-games.js"
+  },
+  "description": "[![Actions Status](https://github.com/vareshka0101/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/vareshka0101/frontend-project-44/actions)",
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vareshka0101/frontend-project-44.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vareshka0101/frontend-project-44/issues"
+  },
+  "homepage": "https://github.com/vareshka0101/frontend-project-44#readme"
+}
