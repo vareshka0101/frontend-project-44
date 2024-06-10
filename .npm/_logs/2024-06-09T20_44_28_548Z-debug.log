@@ -1,0 +1,24 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'ci' ]
+2 info using npm@6.14.4
+3 info using node@v10.19.0
+4 verbose config Skipping project config: /home/vareshka/.npmrc. (matches userconfig)
+5 verbose npm-session 840dcae7992bbef4
+6 info prepare initializing installer
+7 verbose prepare starting workers
+8 verbose prepare installation prefix: /home/vareshka
+9 verbose teardown shutting down workers.
+10 info teardown Done in 0s
+11 verbose stack Error: ENOENT: no such file or directory, open '/home/vareshka/package.json'
+12 verbose cwd /home/vareshka
+13 verbose Linux 5.15.0-107-generic
+14 verbose argv "/usr/bin/node" "/usr/bin/npm" "ci"
+15 verbose node v10.19.0
+16 verbose npm  v6.14.4
+17 error code ENOENT
+18 error syscall open
+19 error path /home/vareshka/package.json
+20 error errno -2
+21 error enoent ENOENT: no such file or directory, open '/home/vareshka/package.json'
+22 error enoent This is related to npm not being able to find a file.
+23 verbose exit [ -2, true ]

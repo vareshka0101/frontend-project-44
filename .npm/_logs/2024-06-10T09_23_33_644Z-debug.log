@@ -1,0 +1,35 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'link' ]
+2 info using npm@6.14.4
+3 info using node@v10.19.0
+4 verbose linkPkg /home/vareshka/frontend-project-44
+5 silly gently link deleting existing link forcefully { link: '/usr/local/lib/node_modules/@hexlet/code',
+5 silly gently link   target: '/home/vareshka/frontend-project-44',
+5 silly gently link   force: false,
+5 silly gently link   gently: false,
+5 silly gently link   clobberLinkGently: undefined }
+6 verbose stack Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules'
+7 verbose cwd /home/vareshka/frontend-project-44
+8 verbose Linux 5.15.0-107-generic
+9 verbose argv "/usr/bin/node" "/usr/bin/npm" "link"
+10 verbose node v10.19.0
+11 verbose npm  v6.14.4
+12 error code EACCES
+13 error syscall mkdir
+14 error path /usr/local/lib/node_modules
+15 error errno -13
+16 error Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules'
+16 error  { [Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules']
+16 error   stack:
+16 error    'Error: EACCES: permission denied, mkdir \'/usr/local/lib/node_modules\'',
+16 error   errno: -13,
+16 error   code: 'EACCES',
+16 error   syscall: 'mkdir',
+16 error   path: '/usr/local/lib/node_modules' }
+17 error The operation was rejected by your operating system.
+17 error It is likely you do not have the permissions to access this file as the current user
+17 error
+17 error If you believe this might be a permissions issue, please double-check the
+17 error permissions of the file and its containing directories, or try running
+17 error the command again as root/Administrator.
+18 verbose exit [ -13, true ]

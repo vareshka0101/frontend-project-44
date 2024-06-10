@@ -1,0 +1,36 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'link' ]
+2 info using npm@6.14.4
+3 info using node@v10.19.0
+4 verbose config Skipping project config: /home/vareshka/.npmrc. (matches userconfig)
+5 verbose linkPkg /home/vareshka
+6 silly gently link deleting existing link forcefully { link: '/usr/local/lib/node_modules/@hexlet/code',
+6 silly gently link   target: '/home/vareshka',
+6 silly gently link   force: false,
+6 silly gently link   gently: false,
+6 silly gently link   clobberLinkGently: undefined }
+7 verbose stack Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules'
+8 verbose cwd /home/vareshka/frontend-project-44
+9 verbose Linux 5.15.0-107-generic
+10 verbose argv "/usr/bin/node" "/usr/bin/npm" "link"
+11 verbose node v10.19.0
+12 verbose npm  v6.14.4
+13 error code EACCES
+14 error syscall mkdir
+15 error path /usr/local/lib/node_modules
+16 error errno -13
+17 error Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules'
+17 error  { [Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules']
+17 error   stack:
+17 error    'Error: EACCES: permission denied, mkdir \'/usr/local/lib/node_modules\'',
+17 error   errno: -13,
+17 error   code: 'EACCES',
+17 error   syscall: 'mkdir',
+17 error   path: '/usr/local/lib/node_modules' }
+18 error The operation was rejected by your operating system.
+18 error It is likely you do not have the permissions to access this file as the current user
+18 error
+18 error If you believe this might be a permissions issue, please double-check the
+18 error permissions of the file and its containing directories, or try running
+18 error the command again as root/Administrator.
+19 verbose exit [ -13, true ]
