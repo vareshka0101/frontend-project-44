@@ -1,4 +1,4 @@
-#Brain-games
+# Brain-games
 [![Actions Status](https://github.com/vareshka0101/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/vareshka0101/frontend-project-44/actions)
 [![asciicast](https://asciinema.org/a/odURCygkQoTuCBld6QoGagQmP.svg)](https://asciinema.org/a/odURCygkQoTuCBld6QoGagQmP)
 [![asciicast](https://asciinema.org/a/Fgcc29HDXwUVgeagNNkcHUd5e.svg)](https://asciinema.org/a/Fgcc29HDXwUVgeagNNkcHUd5e)
