@@ -47,4 +47,34 @@ Congratulations, Sam!
 Любой некорректный ввод считается ошибкой (например, n) и равносилен неправильному ответу.
 [![asciicast](https://asciinema.org/a/5KcHWzNmL1gQ0uTXGpYFKBLCs.svg)](https://asciinema.org/a/5KcHWzNmL1gQ0uTXGpYFKBLCs)
 
+## Игра: "Калькулятор"
+Необходимо реализовать игру "Калькулятор". Суть игры в следующем: пользователю показывается случайное математическое выражение, например 35 + 16, которое нужно вычислить и записать правильный ответ.
+
+Вывод должен получиться следующий:
+
+brain-calc
+
+Welcome to the Brain Games!
+May I have your name? Sam
+Hello, Sam!
+What is the result of the expression?
+Question: 4 + 10
+Your answer: 14
+Correct!
+Question: 25 - 11
+Your answer: 14
+Correct!
+Question: 25 * 7
+Your answer: 175
+Correct!
+Congratulations, Sam!
+Достаточно реализовать следующие операции: +, - и *.
+Операции, как и числа, выбираются случайным образом.
+В случае, если пользователь даст неверный ответ, необходимо вывести:
+
+Question: 25 * 7
+Your answer: 145
+'145' is wrong answer ;(. Correct answer was '175'.
+Let's try again, Sam!
+и завершить игру.
 [![asciicast](https://asciinema.org/a/N4AEk3uT989Z3wBX1iHAPnfFm.svg)](https://asciinema.org/a/N4AEk3uT989Z3wBX1iHAPnfFm)
