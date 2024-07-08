@@ -69,7 +69,9 @@ Your answer: 145
 '145' is wrong answer ;(. Correct answer was '175'.
 Let's try again, Sam!
 и завершить игру.
+
 [![asciicast](https://asciinema.org/a/N4AEk3uT989Z3wBX1iHAPnfFm.svg)](https://asciinema.org/a/N4AEk3uT989Z3wBX1iHAPnfFm)
+
 ## Игра "НОД"
 Необходимо реализовать игру "наибольший общий делитель (НОД)". Суть игры в следующем: пользователю показывается два случайных числа, например, 25 50. Пользователь должен вычислить и ввести наибольший общий делитель этих чисел.
 
@@ -96,4 +98,6 @@ Question: 25 50
 Your answer: 1
 '1' is wrong answer ;(. Correct answer was '25'.
 Let's try again, Sam!
+
 [![asciicast](https://asciinema.org/a/1EffDGlV8ShaiwP61DQAOLw3V.svg)](https://asciinema.org/a/1EffDGlV8ShaiwP61DQAOLw3V)
+
