@@ -161,3 +161,21 @@ Your answer: 1
 Let's try again, Sam!
 ```
 [![asciicast](https://asciinema.org/a/GzhOPBszcMs8XyFhNnMcKqOSq.svg)](https://asciinema.org/a/GzhOPBszcMs8XyFhNnMcKqOSq)
+
+## Игра: "Простое ли число?"
+
+Пример:
+```
+brain-prime
+
+Welcome to the Brain Games!
+May I have your name? Sam
+Hello, Sam!
+Answer "yes" if given number is prime. Otherwise answer "no".
+Question: 7
+Your answer: yes
+Correct!
+```
+Весь вывод и логика в случае правильного и неправильного ответа повторяют предыдущие шаги.
+
+[![asciicast](https://asciinema.org/a/WJxqMxBbRc1tqIFFBWtsI6BaC.svg)](https://asciinema.org/a/WJxqMxBbRc1tqIFFBWtsI6BaC)
