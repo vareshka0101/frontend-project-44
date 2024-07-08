@@ -21,10 +21,9 @@ const randomOperation = () => {
   };
 
   const generateQuestionAndAnswer = () => {
-    const num1 = randomNumber(50) + 1;
-    const num2 = randomNumber(50) + 1;
+    const num1 = randomNumber(30) + 1;
+    const num2 = randomNumber(30) + 1;
     const operation = randomOperation();
-    console.log("What is the result of the expression?");
     const question = `${num1} ${operation} ${num2}`;
     const correctAnswer = calculate(num1, operation, num2).toString();
     return { question, correctAnswer };
@@ -32,9 +31,10 @@ const randomOperation = () => {
   
  
   const calcGame = () => {
-    runGame(generateQuestionAndAnswer);
-   
-  };
+  const playerQuest =('What is the result of the expression?');
+  runGame(playerQuest, generateQuestionAndAnswer);
+};
+
   
   export default calcGame;
 

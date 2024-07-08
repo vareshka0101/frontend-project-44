@@ -14,20 +14,21 @@ const generateQuestionAndAnswer = () => {
   const progressionLength = randomNumber(maxProgressionLength - minProgressionLength + 1) + minProgressionLength;
 
   const start = randomNumber(30) + 1;
-  const step = randomNumber(5) + 1;
+  const step = randomNumber(10) + 1;
   const progression = generateProgression(progressionLength, start, step);
 
   const hiddenElementIndex = randomNumber(progression.length);
   const correctAnswer = progression[hiddenElementIndex];
   progression[hiddenElementIndex] = '..';
-  console.log('What number is missing in the progression?');
   const question = progression.join(' ');
   return { question, correctAnswer: correctAnswer.toString() };
 };
 
 
 const progressGame = () => {
-  runGame(generateQuestionAndAnswer);
+  const playerQuest = ('What number is missing in the progression?');
+  runGame(playerQuest, generateQuestionAndAnswer);
 };
+
 
 export default progressGame;

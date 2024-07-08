@@ -26,8 +26,9 @@ const checkAnswer = (userAnswer, correctAnswer, name) => {
 };
 
 
-const runGame = (generateQuestionAndAnswer) => {
+const runGame = (playerQuest, generateQuestionAndAnswer) => {
   const name = welcome();
+  console.log(playerQuest);
   const rounds = 3;
   for (let i = 0; i < rounds; i++) {
     const { question, correctAnswer } = generateQuestionAndAnswer();
