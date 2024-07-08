@@ -35,5 +35,8 @@ const randomOperation = () => {
   };
   
   export default calcGame;
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 018c0cb591eb29f129c3e0f5883008bbc6da53fe
