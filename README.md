@@ -51,7 +51,7 @@ Correct!
 Congratulations, Sam!
 ```
 - Любой некорректный ввод считается ошибкой (например, n) и равносилен неправильному ответу.
-- 
+ 
 [![asciicast](https://asciinema.org/a/oePEUYQgI4nEByBOW6uOAJGv5.svg)](https://asciinema.org/a/oePEUYQgI4nEByBOW6uOAJGv5)
 
 ## Игра: "Калькулятор"
