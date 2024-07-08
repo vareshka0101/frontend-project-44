@@ -51,7 +51,7 @@ Congratulations, Sam!
 ```
 - Любой некорректный ввод считается ошибкой (например, n) и равносилен неправильному ответу.
   
-[![asciicast](https://asciinema.org/a/5KcHWzNmL1gQ0uTXGpYFKBLCs.svg)](https://asciinema.org/a/5KcHWzNmL1gQ0uTXGpYFKBLCs)
+[![asciicast](https://asciinema.org/a/oePEUYQgI4nEByBOW6uOAJGv5.svg)](https://asciinema.org/a/oePEUYQgI4nEByBOW6uOAJGv5)
 
 ## Игра: "Калькулятор"
 
@@ -91,8 +91,7 @@ Let's try again, Sam!
 ```
 Congratulations, Sam!
 ```
-
-[![asciicast](https://asciinema.org/a/N4AEk3uT989Z3wBX1iHAPnfFm.svg)](https://asciinema.org/a/N4AEk3uT989Z3wBX1iHAPnfFm)
+[![asciicast](https://asciinema.org/a/T7EqnX5LaIazDIFXe8FYRrKdL.svg)](https://asciinema.org/a/T7EqnX5LaIazDIFXe8FYRrKdL)
 
 ## Игра: "НОД"
 
@@ -126,8 +125,7 @@ Your answer: 1
 '1' is wrong answer ;(. Correct answer was '25'.
 Let's try again, Sam!
 ```
-
-[![asciicast](https://asciinema.org/a/1EffDGlV8ShaiwP61DQAOLw3V.svg)](https://asciinema.org/a/1EffDGlV8ShaiwP61DQAOLw3V)
+[![asciicast](https://asciinema.org/a/Xs5nG42A1QBqbHvP1Mwyv1AJ9.svg)](https://asciinema.org/a/Xs5nG42A1QBqbHvP1Mwyv1AJ9)
 
 ## Игра: "Арифметическая прогрессия"
 
@@ -161,4 +159,4 @@ Your answer: 1
 '1' is wrong answer ;(. Correct answer was '15'.
 Let's try again, Sam!
 ```
-[![asciicast](https://asciinema.org/a/TDwuhyRsGTZK4yYWTiluxgzZt.svg)](https://asciinema.org/a/TDwuhyRsGTZK4yYWTiluxgzZt)
+[![asciicast](https://asciinema.org/a/GzhOPBszcMs8XyFhNnMcKqOSq.svg)](https://asciinema.org/a/GzhOPBszcMs8XyFhNnMcKqOSq)
