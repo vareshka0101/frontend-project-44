@@ -14,7 +14,7 @@ Hello, Bill!
 Answer "yes" if the number is even, otherwise answer "no".
 Question: 15
 Your answer: yes
-```
+
 В случае, если пользователь даст неверный ответ, необходимо завершить игру и вывести сообщение:
 ```
 'yes' is wrong answer ;(. Correct answer was 'no'.
