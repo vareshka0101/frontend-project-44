@@ -176,6 +176,6 @@ Question: 7
 Your answer: yes
 Correct!
 ```
-Задача: опеделить, является ли число простым или нет. Ввести соответствующий ответ.
+Условие игры: опеделить, является ли число простым или нет. Ввести соответствующий ответ.
 
 [![asciicast](https://asciinema.org/a/WJxqMxBbRc1tqIFFBWtsI6BaC.svg)](https://asciinema.org/a/WJxqMxBbRc1tqIFFBWtsI6BaC)
