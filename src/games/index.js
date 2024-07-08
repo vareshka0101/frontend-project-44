@@ -41,8 +41,4 @@ const runGame = (generateQuestionAndAnswer) => {
 };
 
 export default runGame;
-<<<<<<< HEAD
 
-
-=======
->>>>>>> 1437cb7f43a6524926823fee8bd820bcb809baa3

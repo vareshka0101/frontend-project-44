@@ -2,7 +2,6 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/vareshka0101/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/vareshka0101/frontend-project-44/actions)
 
-<<<<<<< HEAD
 [![asciicast](https://asciinema.org/a/odURCygkQoTuCBld6QoGagQmP.svg)](https://asciinema.org/a/odURCygkQoTuCBld6QoGagQmP)
 
 [![asciicast](https://asciinema.org/a/Fgcc29HDXwUVgeagNNkcHUd5e.svg)](https://asciinema.org/a/Fgcc29HDXwUVgeagNNkcHUd5e)
@@ -12,7 +11,14 @@
 
 ## Игра: "Проверка на чётность"
 Необходимо реализовать игру "Проверка на чётность". Суть игры в следующем: пользователю показывается случайное число. И ему нужно ответить yes, если число чётное, или no — если нечётное:
-
+## Setup
+```sh
+make install
+```
+## Run
+```sh
+make brain-even
+```
 Welcome to the Brain Games!
 May I have your name? Bill
 Hello, Bill!
@@ -105,5 +111,4 @@ Your answer: 1
 Let's try again, Sam!
 
 [![asciicast](https://asciinema.org/a/1EffDGlV8ShaiwP61DQAOLw3V.svg)](https://asciinema.org/a/1EffDGlV8ShaiwP61DQAOLw3V)
->>>>>>> 1437cb7f43a6524926823fee8bd820bcb809baa3
 
