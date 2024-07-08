@@ -70,3 +70,5 @@ Your answer: 145
 Let's try again, Sam!
 и завершить игру.
 [![asciicast](https://asciinema.org/a/N4AEk3uT989Z3wBX1iHAPnfFm.svg)](https://asciinema.org/a/N4AEk3uT989Z3wBX1iHAPnfFm)
+
+[![asciicast](https://asciinema.org/a/1EffDGlV8ShaiwP61DQAOLw3V.svg)](https://asciinema.org/a/1EffDGlV8ShaiwP61DQAOLw3V)
