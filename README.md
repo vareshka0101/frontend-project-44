@@ -176,6 +176,6 @@ Question: 7
 Your answer: yes
 Correct!
 ```
-Весь вывод и логика в случае правильного и неправильного ответа повторяют предыдущие шаги.
+Задача: опеделить, является ли число простым или нет. Ввести соответствующий ответ.
 
 [![asciicast](https://asciinema.org/a/WJxqMxBbRc1tqIFFBWtsI6BaC.svg)](https://asciinema.org/a/WJxqMxBbRc1tqIFFBWtsI6BaC)
