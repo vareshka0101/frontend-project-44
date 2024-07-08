@@ -161,3 +161,4 @@ Your answer: 1
 '1' is wrong answer ;(. Correct answer was '15'.
 Let's try again, Sam!
 ```
+[![asciicast](https://asciinema.org/a/TDwuhyRsGTZK4yYWTiluxgzZt.svg)](https://asciinema.org/a/TDwuhyRsGTZK4yYWTiluxgzZt)
