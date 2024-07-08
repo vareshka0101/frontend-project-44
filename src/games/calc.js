@@ -24,19 +24,17 @@ const randomOperation = () => {
     const num1 = randomNumber(50) + 1;
     const num2 = randomNumber(50) + 1;
     const operation = randomOperation();
+    console.log("What is the result of the expression?");
     const question = `${num1} ${operation} ${num2}`;
     const correctAnswer = calculate(num1, operation, num2).toString();
     return { question, correctAnswer };
   };
   
-  
+ 
   const calcGame = () => {
     runGame(generateQuestionAndAnswer);
+   
   };
   
   export default calcGame;
-<<<<<<< HEAD
 
-
-=======
->>>>>>> 018c0cb591eb29f129c3e0f5883008bbc6da53fe
