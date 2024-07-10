@@ -11,16 +11,11 @@
 - Клонировать репозиторий проекта. Инструкция по клонированию: https://docs.github.com/ru/repositories/creating-and-managing-repositories/cloning-a-repository
 - Ввести в терминале `make insall`
 
-## Выбор игры и запуск
-
 ## Игра: "Проверка на чётность"
 Условия игры: пользователю показывается случайное число. И ему нужно ответить yes, если число чётное, или no — если нечётное:
-```
 В терминале вводим brain-even и отвечаем правильно на вопросы.
 В случае успешного прохождения игры - поздравления от всей души. Вы молодец!
-```
 
-```
 Пример успешного прохождения смотрите ниже:
  
 [![asciicast](https://asciinema.org/a/oePEUYQgI4nEByBOW6uOAJGv5.svg)](https://asciinema.org/a/oePEUYQgI4nEByBOW6uOAJGv5)
