@@ -36,5 +36,3 @@ const randomOperation = () => {
 };
 
   
-  export default calcGame;
-

@@ -13,17 +13,16 @@ const isPrime = (num) => {
 };
 
 const generateQuestionAndAnswer = () => {
-  const randomNum = Math.floor(Math.random() * 100);
-  const question = randomNum;
-  const correctAnswer = isPrime(randomNum) ? 'yes' : 'no';
+  const question = randomNumber(50)+1;
+  const correctAnswer = isPrime(question) ? 'yes' : 'no';
   return { question, correctAnswer };
 };
-
-const isPrimeGame = () => {
+const primeGame = () => {
 const playerQuest =('Answer "yes" if given number is prime. Otherwise answer "no".');
   runGame(playerQuest, generateQuestionAndAnswer);
 };
 
-export default isPrimeGame;
+export default primeGame;
+
 
 

@@ -25,10 +25,10 @@ const generateQuestionAndAnswer = () => {
 };
 
 
-const progressGame = () => {
+const progressionGame = () => {
   const playerQuest = ('What number is missing in the progression?');
   runGame(playerQuest, generateQuestionAndAnswer);
 };
 
 
-export default progressGame;
+export default progressionGame;
