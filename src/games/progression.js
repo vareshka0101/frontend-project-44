@@ -1,5 +1,5 @@
-import randomNumber from './randomNum.js';
-import runGame from './index.js';
+import randomNumber from '../randomNum.js';
+import runGame from '../index.js';
 
 const generateProgression = (length, start, step) => {
   const progression = [];
@@ -24,9 +24,8 @@ const generateQuestionAndAnswer = () => {
   return { question, correctAnswer: correctAnswer.toString() };
 };
 
-
+const playerQuest = 'What number is missing in the progression?';
 const progressionGame = () => {
-  const playerQuest = ('What number is missing in the progression?');
   runGame(playerQuest, generateQuestionAndAnswer);
 };
 

@@ -56,3 +56,4 @@
 Пример успешного прохождения игры:
 
 [![asciicast](https://asciinema.org/a/WJxqMxBbRc1tqIFFBWtsI6BaC.svg)](https://asciinema.org/a/WJxqMxBbRc1tqIFFBWtsI6BaC)
+

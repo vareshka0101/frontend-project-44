@@ -1,5 +1,5 @@
-import randomNumber from './randomNum.js';
-import runGame from './index.js';
+import randomNumber from '../randomNum.js';
+import runGame from '../index.js';
 const isEven = (num) => num % 2 === 0;
 const generateQuestionAndAnswer = () => {
   const number = randomNumber(100);
@@ -8,9 +8,8 @@ const generateQuestionAndAnswer = () => {
   return { question, correctAnswer };
 };
 
-
+const playerQuest ='Answer "yes" if the number is even, otherwise answer "no".';
 const evenGame = () => {
-const playerQuest =('Answer "yes" if the number is even, otherwise answer "no".');
   runGame(playerQuest, generateQuestionAndAnswer);
 };
 
