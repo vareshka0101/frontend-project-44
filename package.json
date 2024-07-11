@@ -4,10 +4,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \\"error: no test specified\\" && exit 1"
   },
-  "author": "Darya B.",
-  "license": "ISC",
+  "author": "darya b.",
+  "license": "isc",
   "bin": {
     "brain-games": "bin/brain-games.js",
     "brain-even": "bin/brain-even.js",
@@ -16,8 +16,7 @@
     "brain-progression": "bin/brain-progression.js",
     "brain-prime": "bin/brain-prime.js"
   },
-  "description": "[![Actions Status](https://github.com/vareshka0101/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/vareshka0101/frontend-project-44/actions)",
-  "devDependencies": {,
+  "description": "[![actions status](https://github.com/vareshka0101/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/vareshka0101/frontend-project-44/actions)",
   "devDependencies": {
     "@eslint/compat": "^1.1.0",
     "@eslint/create-config": "^1.0.0",
