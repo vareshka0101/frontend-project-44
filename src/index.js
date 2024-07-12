@@ -1,44 +1,32 @@
 import readlineSync from 'readline-sync';
 
-const welcome = () => {
+const greetPlayer = () => {
   console.log("Welcome to the Brain Games!");
-  const name = readlineSync.question("May I have your name? ");
-  console.log(`Hello, ${name}!`);
-  };
-
-const askQuestion = (question) => {
-  console.log(`Question: ${question}`);
-  const answer = readlineSync.question('Your answer: ').toLowerCase();
-  return answer;
+  const playerName = readlineSync.question("May I have your name? ");
+  console.log(`Hello, ${playerName}!`);
+  return playerName;
 };
 
+const runGame = (gameDescription, oneRound) => {
+  const username = greetPlayer();
+  console.log(gameDescription);
 
-const playerAnswer = (userAnswer, correctAnswer, name) => {
-  if (userAnswer === correctAnswer) {
-    console.log('Correct!');
-    return true;
-  } else {
-    console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`);
-    console.log(`Let's try again, ${name}!`);
-    return false;
-  }
-};
-
-
-const runGame = (playerQuest, generateQuestionAndAnswer) => {
-  const name = welcome();
-  console.log(playerQuest);
   const rounds = 3;
-  for (let i = 0; i < rounds; i++) {
-    const { question, correctAnswer } = generateQuestionAndAnswer();
-    const userAnswer = askQuestion(question);
-    const isCorrect = playerAnswer(userAnswer, correctAnswer, name);
-    if (!isCorrect) {
+  for (let i = 0; i < rounds; i += 1) {
+    const { question, correctAnswer } = oneRound();
+
+    console.log(`Question: ${question}`);
+    const userAnswer = readlineSync.question('Your answer: ');
+
+    if (userAnswer.toLowerCase() !== correctAnswer) {
+      console.log(`'${userAnswer}' is the wrong answer ;(. The correct answer was '${correctAnswer}'. Let's try again, ${username}!`);
       return;
     }
+
+    console.log('Correct!');
   }
-  console.log(`Congratulations, ${name}!`);
+
+  console.log(`Congratulations, ${username}!`);
 };
 
 export default runGame;
-

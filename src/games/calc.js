@@ -20,7 +20,7 @@ const calculate = (num1, operation, num2) => {
   }
 };
 
-const generateQuestionAndAnswer = () => {
+const oneRound = () => {
   const num1 = randomNumber(30) + 1;
   const num2 = randomNumber(30) + 1;
   const operation = randomOperation();
@@ -31,7 +31,7 @@ const generateQuestionAndAnswer = () => {
 
 const playerQuest = 'What is the result of the expression?';
 const calcGame = () => {
-  runGame(playerQuest, generateQuestionAndAnswer);
+  runGame(playerQuest, oneRound);
 };
 
 export default calcGame;

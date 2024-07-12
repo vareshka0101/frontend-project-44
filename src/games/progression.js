@@ -8,7 +8,7 @@ const generateProgression = (length, start, step) => {
   }
   return progression;
 };
-const generateQuestionAndAnswer = () => {
+const oneRound = () => {
   const minProgressionLength = 5;
   const maxProgressionLength = 10;
   const progressionLength = randomNumber(maxProgressionLength - minProgressionLength + 1) + minProgressionLength;
@@ -26,7 +26,7 @@ const generateQuestionAndAnswer = () => {
 
 const playerQuest = 'What number is missing in the progression?';
 const progressionGame = () => {
-  runGame(playerQuest, generateQuestionAndAnswer);
+  runGame(playerQuest, oneRound);
 };
 
 
