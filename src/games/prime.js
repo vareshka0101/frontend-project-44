@@ -12,13 +12,13 @@ const isPrime = (num) => {
   }
   return true;
 };
-const oneRound = () => {
+const getRound = () => {
   const question = randomNumber(50) + 1;
   const correctAnswer = isPrime(question) ? 'yes' : 'no';
   return { question, correctAnswer };
 };
 const playerQuest = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 const primeGame = () => {
-  runGame(playerQuest, oneRound);
+  runGame(playerQuest, getRound);
 };
 export default primeGame;
