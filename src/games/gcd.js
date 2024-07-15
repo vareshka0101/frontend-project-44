@@ -11,6 +11,6 @@ const getRound = () => {
 };
 const playerQuest = 'Find the greatest common divisor of given numbers.';
 const gcdGame = () => {
-runGame(playerQuest, getRound);
+  runGame(playerQuest, getRound);
 };
 export default gcdGame;
