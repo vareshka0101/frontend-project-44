@@ -9,10 +9,9 @@ const generateProgression = (length, start, step) => {
   return progression;
 };
 const getRound = () => {
-  const minProgressionLength = 5;
-  const maxProgressionLength = 10;
-  const progressionLength = randomNumber(maxProgressionLength - minProgressionLength + 1) + 
-  minProgressionLength;
+  const minProgrLength = 5;
+  const maxProgrLength = 10;
+  const progressionLength = randomNumber(maxProgrLength - minProgrLength + 1) +  minProgrLength;
   const start = randomNumber(30) + 1;
   const step = randomNumber(10) + 1;
   const progression = generateProgression(progressionLength, start, step);
