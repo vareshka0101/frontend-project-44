@@ -7,13 +7,13 @@ const greetPlayer = () => {
   return playerName;
 };
 
-const runGame = (gameDescription, oneRound) => {
+const runGame = (gameDescription, getRound) => {
   const username = greetPlayer();
   console.log(gameDescription);
 
   const rounds = 3;
   for (let i = 0; i < rounds; i += 1) {
-    const { question, correctAnswer } = oneRound();
+    const { question, correctAnswer } = getRound();
 
     console.log(`Question: ${question}`);
     const userAnswer = readlineSync.question('Your answer: ');
