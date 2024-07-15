@@ -3,7 +3,7 @@ import runGame from '../index.js';
 
 const generateProgression = (length, start, step) => {
   const progression = [];
-  for (let i = 0; i < length; i+=1) {
+  for (let i = 0; i < length; i + = 1) {
     progression.push(start + i * step);
   }
   return progression;
@@ -11,8 +11,8 @@ const generateProgression = (length, start, step) => {
 const getRound = () => {
   const minProgressionLength = 5;
   const maxProgressionLength = 10;
-  const progressionLength = randomNumber(maxProgressionLength - minProgressionLength + 1) + minProgressionLength;
-
+  const progressionLength = randomNumber(maxProgressionLength - minProgressionLength + 1) + 
+  minProgressionLength;
   const start = randomNumber(30) + 1;
   const step = randomNumber(10) + 1;
   const progression = generateProgression(progressionLength, start, step);
