@@ -1,5 +1,6 @@
 import randomNumber from '../randomNum.js';
 import runGame from '../index.js';
+
 const isPrime = (num) => {
   if (num <= 1) {
     return false;
