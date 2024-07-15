@@ -1,0 +1,20 @@
+name: 'Hexlet project action'
+description: 'For testing projects'
+
+inputs:
+  hexlet-id:  # id of input
+    description: 'id'
+    required: true
+  verbose:
+    description: 'show me more!'
+    required: false
+    default: false
+  mount-path:
+    description: 'mount path'
+    required: true
+    default: "/var/tmp"
+
+runs:
+  using: 'node20'
+  main: 'dist/run-tests/index.js'
+  post: 'dist/run-post-actions/index.js'
